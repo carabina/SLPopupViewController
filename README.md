@@ -15,10 +15,9 @@ First you have to import the category
 Simply use presentPopupViewController:animationType, f.e.:
 
 let myPopupViewController:MyPopupViewController = MyPopupViewController(nibName:"MyPopupViewController", bundle: nil)
-        myPopupViewController.delegate = self
-        self.presentpopupViewController(myPopupViewController, animationType: animationType, completion: { () -> Void in
-            
-        })
+myPopupViewController.delegate = self
+self.presentpopupViewController(myPopupViewController, animationType: animationType, completion: { () -> Void in
+})
         
 to dismiss the popup, use dismissPopupViewControllerWithanimationType
 
