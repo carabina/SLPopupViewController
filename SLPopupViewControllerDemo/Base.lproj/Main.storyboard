@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="SLPopupViewControllerDemo" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wX9-eu-cu3">
+                                <rect key="frame" x="69" y="156" width="170" height="30"/>
+                                <state key="normal" title="Show Bottom Top Popup"/>
+                                <connections>
+                                    <action selector="btnBottomTop:" destination="BYZ-38-t0r" eventType="touchUpInside" id="rTh-bt-SCs"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fay-k0-tGR">
+                                <rect key="frame" x="69" y="194" width="170" height="30"/>
+                                <state key="normal" title="Show Top Bottom Popup"/>
+                                <connections>
+                                    <action selector="btnTopBottom:" destination="BYZ-38-t0r" eventType="touchUpInside" id="RzJ-ra-Ger"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Kv7-GD-pjg">
+                                <rect key="frame" x="69" y="232" width="194" height="30"/>
+                                <state key="normal" title="Show Bottom Bottom Popup"/>
+                                <connections>
+                                    <action selector="btnBottomBottom:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Xrl-RJ-dhT"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ubw-3y-BHA">
+                                <rect key="frame" x="69" y="270" width="199" height="30"/>
+                                <state key="normal" title="Show Top Top Popup"/>
+                                <connections>
+                                    <action selector="btnTopTop:" destination="BYZ-38-t0r" eventType="touchUpInside" id="VgO-lC-rXi"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dfs-VX-W4T">
+                                <rect key="frame" x="69" y="308" width="158" height="30"/>
+                                <state key="normal" title="Show Left Left Popup"/>
+                                <connections>
+                                    <action selector="btnLeftLeft:" destination="BYZ-38-t0r" eventType="touchUpInside" id="yNN-G8-w3D"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XmC-YB-Hqy">
+                                <rect key="frame" x="69" y="346" width="158" height="30"/>
+                                <state key="normal" title="Show Left Right Popup"/>
+                                <connections>
+                                    <action selector="btnLeftRight:" destination="BYZ-38-t0r" eventType="touchUpInside" id="vry-os-Ept"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="D0i-vh-3CE">
+                                <rect key="frame" x="69" y="382" width="158" height="30"/>
+                                <state key="normal" title="Show Right Left Popup"/>
+                                <connections>
+                                    <action selector="btnRightLeft:" destination="BYZ-38-t0r" eventType="touchUpInside" id="zGf-C0-3HA"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Please select popup below:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="y2m-RO-kTh">
+                                <rect key="frame" x="0.0" y="64" width="320" height="48"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="885" y="632"/>
+        </scene>
+    </scenes>
+</document>
