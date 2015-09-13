@@ -4,11 +4,11 @@ SLPopupViewController
 A UIViewController Category to display a ViewController as a popup with different transition effects.
 Written by Nguyen Duc Hoang, September 2015.
 
-Installation
+##Installation
 
 Open in Xcode7 SWIFT project. Also you need to add the QuartzCore-Framework to your project.
 
-Usage
+##Usage
 
 First you have to import the category
 
@@ -25,6 +25,6 @@ to dismiss the popup, use dismissPopupViewControllerWithanimationType
 self.dismissPopupViewController(.Fade)
 see the demo for more detailed examples
 
-Demo
+##Demo
 
 You can open the SLPopupViewControllerDemo demo project in Xcode and run it on your iPhone as well as in the Simulator.
