@@ -24,7 +24,7 @@ class MyPopupViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.view.layer.cornerRadius = 12
+        self.view.layer.cornerRadius = 22
         self.view.layer.masksToBounds = true
         // Do any additional setup after loading the view.
     }

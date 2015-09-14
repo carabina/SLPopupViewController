@@ -22,14 +22,20 @@
                 </label>
                 <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8CJ-TD-ajd">
                     <rect key="frame" x="175" y="180" width="79" height="38"/>
-                    <state key="normal" title="Cancel"/>
+                    <color key="backgroundColor" red="1" green="0.52455853001705055" blue="0.44585609493638523" alpha="1" colorSpace="calibratedRGB"/>
+                    <state key="normal" title="Cancel">
+                        <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
                     <connections>
                         <action selector="btnCancel:" destination="-1" eventType="touchUpInside" id="ewY-qq-O05"/>
                     </connections>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wdr-tl-1mk">
                     <rect key="frame" x="62" y="180" width="79" height="38"/>
-                    <state key="normal" title="OK"/>
+                    <color key="backgroundColor" red="0.52202789777200875" green="0.83126921642849505" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <state key="normal" title="OK">
+                        <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
                     <connections>
                         <action selector="btnOK:" destination="-1" eventType="touchUpInside" id="2Lt-Hw-7sr"/>
                     </connections>
