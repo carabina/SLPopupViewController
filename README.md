@@ -27,5 +27,5 @@ see the demo for more detailed examples
 ##Demo
 
 You can open the SLPopupViewControllerDemo demo project in Xcode and run it on your iPhone as well as in the Simulator.
-<img src="https://raw.github.com/sunlight3d/SLPopupViewController/master/assets/pic1.png" width="567" height="1003"/>
-<img src="https://raw.github.com/sunlight3d/SLPopupViewController/master/assets/pic2.png" width="566" height="1000"/>
+<img src="https://raw.github.com/sunlight3d/SLPopupViewController/master/assets/pic1.png" width="283" height="501"/>
+<img src="https://raw.github.com/sunlight3d/SLPopupViewController/master/assets/pic2.png" width="283" height="500"/>
